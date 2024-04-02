@@ -28,9 +28,9 @@ var test2 = [
     [0,0,3,0,0]
     ];
 
-assert(JSON.stringify(dijkstras(test2, 0)) == JSON.stringify([0,1,1,2,4]);
-assert(JSON.stringify(dijkstras(test2, 3)) == JSON.stringify([Infinity, Infinity, Infinity, 0, Infinity]);
+assert(JSON.stringify(dijkstras(test2, 0)) == JSON.stringify([0,1,1,2,4]));
+assert(JSON.stringify(dijkstras(test2, 3)) == JSON.stringify([Infinity, Infinity, Infinity, 0, Infinity]));
 
 var test3 = [[0]];
 
-assert(JSON.stringify(dijkstras(test3, 0)) == JSON.stringify(0);
+assert(JSON.stringify(dijkstras(test3, 0)) == JSON.stringify(0));
